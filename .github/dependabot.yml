@@ -1,0 +1,26 @@
+# Actualizaciones automáticas de dependencias [SEG-03].
+# Proyectos TypeScript: cambia "uv" por "npm".
+version: 2
+updates:
+  - package-ecosystem: uv
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      dependencias:
+        patterns: ["*"]
+        update-types: [minor, patch]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: ci
+      include: scope
+    groups:
+      acciones:
+        patterns: ["*"]

@@ -1,0 +1,8 @@
+# Responsables del código: el equipo base revisa y aprueba todos los PR [ORG-04].
+# En GitHub Free con repositorios privados, GitHub NO aplica este archivo (no pide revisión
+# automáticamente ni la exige). Se mantiene porque documenta a los responsables y se activa solo
+# si el repositorio es público o la organización cambia de plan. Mientras tanto, la plantilla del
+# PR menciona a @AI-Lab-Universidad-de-La-Sabana/ailab-core, quien aprueba es quien fusiona y la
+# auditoría de CI verifica la aprobación.
+# Puedes añadir responsables por carpeta, p. ej.:  /src/app/pagos/  @usuario1 @usuario2
+* @AI-Lab-Universidad-de-La-Sabana/ailab-core
